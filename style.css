@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 30%;
+  height: 70vh;
+  background-color: rgb(120, 163, 163, 0.1);
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 230px;
+  border-radius: 25px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #faebd7;
+}
+
+#button {
+  padding: 10px;
+  width: 135px;
+  border-radius: 25px;
+  background-color: #faf0be;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+ul > li {
+  list-style: none;
+  font-size: 21px;
+  padding: 8px;
+  text-align: center;
+}
+
+.noMessage {
+  color: darkgrey;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.clearBtn {
+  text-align: end;
+}
+
+#clearButton {
+  padding: 10px;
+  width: 235px;
+  background-color: #faf0be;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.custom-checkbox {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 30px;
+}
